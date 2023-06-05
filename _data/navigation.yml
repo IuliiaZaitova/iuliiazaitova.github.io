@@ -6,8 +6,11 @@ main:
   #- title: "Talks"
   #  url: /talks/    
 
-  - title: "Basic Tools NLP Course"
+    - title: "CV"
     url: /basic-tools-nlp-2023/    
+
+  - title: "Basic Tools NLP Course"
+    url: https://github.com/IuliiaZaitova/iuliiazaitova.github.io/blob/master/_data/cv_iuliia_zaitova.pdf    
     
   #- title: "Portfolio"
   #  url: /portfolio/
