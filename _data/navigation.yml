@@ -4,13 +4,13 @@ main:
   #  url: /publications/
 
   #- title: "Talks"
-  #  url: /talks/    
+  #  url: /talks/     
 
-    - title: "CV"
-    url: /basic-tools-nlp-2023/    
+  - title: "Publications"
+    url: /publications/    
 
   - title: "Basic Tools NLP Course"
-    url: https://github.com/IuliiaZaitova/iuliiazaitova.github.io/blob/master/_data/cv_iuliia_zaitova.pdf    
+    url: /basic-tools-nlp-2023/   
     
   #- title: "Portfolio"
   #  url: /portfolio/
