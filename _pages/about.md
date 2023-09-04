@@ -12,7 +12,7 @@ Hi, I am Iuliia (you-lee-yah), a PhD student at the [Department of Language Scie
 
 **I am mainly interested in Cross-lingual NLP tasks, Linguistic Typology, Language Modeling, and Machine Learning.**
 
-For more information, click on [the link](https://github.com/IuliiaZaitova/iuliiazaitova.github.io/blob/master/files/cv_zaitova_iuliia.pdf) to view my CV!
+For more information, click on [the link](https://github.com/IuliiaZaitova/iuliiazaitova.github.io/blob/master/files/cv_iuliia_zaitova.pdf) to view my CV!
 
 I am open to collaboration, so feel free to send me an e-mail if you have an idea for a project or Master's / Bachelor's thesis.
 
