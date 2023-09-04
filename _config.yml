@@ -9,7 +9,7 @@
 locale                   : "en-US"
 title                    : "Iuliia Zaitova"
 title_separator          : "-"
-name                     : &name "Iuliia Zaitova"
+name                     : &name "Iuliia Zaitova / Юлия Заитова"
 name_pronunciation       : &pronunciation "_YOU-lee-yah zah-EE-tah-vah_"
 description              : &description "PhD student at Saarland University"
 url                      : https://iuliiazaitova.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
@@ -81,7 +81,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "Iuliia Zaitova"
+  name             : "Iuliia Zaitova / Юлия Заитова"
   avatar           : "profile.png"
   bio              : "PhD student at Saarland University"
   location         : "Saarbrücken, Germany"
