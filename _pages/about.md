@@ -26,5 +26,5 @@ I received my M.Sc. in Language Science and Technology at Saarland University, a
 
 ---
 ## Recent News
-**08.29 - 09.09, 2023** Attended [RANLP 2023](https://ranlp.org/ranlp2023/) with a presentation 'Microsyntactic Unit Detection using Word Embedding Models: Experiments on Slavic Languages' (Iuliia Zaitova, Irina Stenger and Tania Avgustinova). \\
+**08.29-09.09, 2023** Attended [RANLP 2023](https://ranlp.org/ranlp2023/) with a presentation 'Microsyntactic Unit Detection using Word Embedding Models: Experiments on Slavic Languages' (Iuliia Zaitova, Irina Stenger and Tania Avgustinova). \\
 **08.21-26, 2023** Attended [UMLV Summer School](https://www.sfb1287.uni-potsdam.de/summer-school-2023/) in Potsdam and presented a poster on Microsyntactic Units across Slavic languages.
