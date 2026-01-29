@@ -15,6 +15,8 @@ permissions:
 
 jobs:
   build:
+    # Template workflow; disable on forks/personal sites.
+    if: github.repository == 'alshedivat/al-folio'
     runs-on: ubuntu-latest
     timeout-minutes: 5
     steps:

@@ -35,6 +35,8 @@ on:
 
 jobs:
   lighthouse-badger-easy:
+    # Template workflow; requires a token and is not needed for personal sites.
+    if: github.repository == 'alshedivat/al-folio'
     runs-on: ubuntu-latest
     timeout-minutes: 8
     steps:

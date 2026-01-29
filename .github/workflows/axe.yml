@@ -21,6 +21,8 @@ env:
 
 jobs:
   check:
+    # This is a template workflow; disable on forks/personal sites.
+    if: github.repository == 'alshedivat/al-folio'
     # available images: https://github.com/actions/runner-images#available-images
     runs-on: ubuntu-latest
     steps:
