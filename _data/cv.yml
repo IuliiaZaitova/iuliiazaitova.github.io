@@ -2,96 +2,138 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
+      value: Iuliia Zaitova
+    - name: Email
+      value: iuliiazaitova@gmail.com
+    - name: Portfolio
+      value: <a href="https://iuliiazaitova.github.io">iuliiazaitova.github.io</a>
     - name: Languages
-      value: English, German
+      value: Russian (native), English (C1), German (B2)
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: PhD in Computational Linguistics
+      institution: Saarland University, Germany — SFB 1102 (project C4)
+      year: 2022 - early 2026
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - Research on foundation models with focus on multilingual capabilities, evaluation frameworks, and interpretability.
+        - Thesis: Non-Compositionality in Cross-Linguistic Intercomprehension.
+        - Advisors: Tania Avgustinova, Dietrich Klakow, Bernd Moebius.
+    - title: MSc in Language Science and Technology
+      institution: Saarland University, Germany — Department of Language Science and Technology
+      year: 2019 - 2022
       description:
-        - Description 1.
-        - Description 2.
+        - Thesis: Modeling Mutual Spoken Word Intelligibility between Slavic languages.
+        - Coursework: AI, Machine Translation, Deep Learning, Statistical NLP.
+        - Advisors: Badr M. Abdullah, Dietrich Klakow.
+    - title: BA with Honours in Linguistics (Translation)
+      institution: Udmurt State University, Department of Translation and Applied Linguistics
+      year: 2014 - 2018
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Applied Scientist Intern (completed)
+      institution: Amazon (Alexa TTS), Cambridge, United Kingdom
+      year: 07.2025 - 01.2026
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Built and deployed transformer-based speech and language models (10B+ parameters) for production voice assistants.
+        - Designed multilingual evaluation frameworks for fairness, robustness, and generalization.
+        - Built AWS data pipelines for large-scale training and collaborated with cross-functional research and engineering teams.
+    - title: Research Assistant
+      institution: Spoken Language Systems (LSV), Saarland University, Germany
+      year: 2020 - 2022
       description:
-        - Description 1.
-        - Description 2.
-
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+        - Led experiments on transformer representations, attention patterns, and cross-lingual capabilities.
+        - Built reproducible training and evaluation pipelines across architectures and languages.
+        - Published results at ACL, NAACL, and Interspeech.
+    - title: Research Assistant
+      institution: Information and Service Systems
+      year: 2019 - 2020
       description:
+        - Developed and deployed neural models for sales prediction using time-series data.
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
+- title: Selected Publications
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: "It's Not a Walk in the Park! Challenges of Idiom Translation in Speech-to-Text Systems"
+      institution: ACL
+      year: 2025
+      description:
+        - Iuliia Zaitova, Badr Abdullah, Wei Xue, Bernd Moebius, Dietrich Klakow, Tania Avgustinova.
+    - title: "Attention on Multiword Expressions: A Multilingual Study of BERT-based Models with Regard to Idiomaticity and Microsyntax"
+      institution: NAACL
+      year: 2025
+      description:
+        - Iuliia Zaitova, Vitalii Hirak, Badr Abdullah, Bernd Moebius, Dietrich Klakow, Tania Avgustinova.
+    - title: "The Effect of Word Predictability on Spoken Cross-Language Intelligibility"
+      institution: Interspeech
+      year: 2025
+      description:
+        - Wei Xue, Iuliia Zaitova, Bernd Moebius.
+    - title: "Cross-Linguistic Intelligibility of Non-Compositional Expressions in Spoken Context"
+      institution: Interspeech
+      year: 2024
+      description:
+        - Iuliia Zaitova, Irina Stenger, Wei Xue, Tania Avgustinova, Bernd Moebius, Dietrich Klakow.
+    - title: "Cross-Linguistic Processing of Non-Compositional Expressions in Slavic Languages"
+      institution: CogAlex at COLING
+      year: 2024
+      description:
+        - Iuliia Zaitova, Irina Stenger, Muhammad Umer Butt, Tania Avgustinova.
+    - title: "Microsyntactic Unit Detection using Word Embedding Models: Experiments on Slavic Languages"
+      institution: RANLP
+      year: 2023
+      description:
+        - Iuliia Zaitova, Irina Stenger, Tania Avgustinova.
+    - title: Full publication list
+      institution: Portfolio
+      year: ongoing
+      description:
+        - See full list at <a href="https://iuliiazaitova.github.io">iuliiazaitova.github.io</a>.
 
-- title: Honors and Awards
+- title: Awards and Funding
   type: time_table
   contents:
-    - year: 1921
+    - year: 2024
       items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
+        - Interspeech Grant
+        - Small Grant Scheme for Doctoral Researchers (MGK - CRC 1102)
+    - year: 2021
       items:
-        - Max Planck Medal
+        - Saarland Stipendium
 
-- title: Academic Interests
-  type: nested_list
+- title: Technical Skills
+  type: map
   contents:
-    - title: Topic 1.
-      items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
+    - name: Machine Learning
+      value: Foundation models, LLMs, self-supervised learning, multilingual and multimodal modeling, evaluation and interpretability.
+    - name: Frameworks
+      value: PyTorch (4+ years), HuggingFace Transformers, JAX (familiar), scikit-learn, NumPy, pandas.
+    - name: Distributed & Cloud
+      value: Large-scale distributed training, Docker, Kubernetes, AWS (SageMaker, EC2, S3), data preprocessing pipelines.
+    - name: Development
+      value: Python (advanced), C++ (intermediate), R (intermediate), Git, Linux/Unix, Jupyter, statistical analysis.
+    - name: Languages
+      value: Russian (native), English (C1), German (B2).
 
-- title: Other Interests
+- title: Professional Development
+  type: time_table
+  contents:
+    - title: Summer School on Linguistic Variability (UMLV)
+      institution: Berlin, Germany
+      year: 2023
+    - title: Summer School on Deep Learning in NLP (RANLP)
+      institution: Varna, Bulgaria
+      year: 2023
+    - title: Virtual SemDial WatchDial
+      institution: Online
+      year: 2020
+
+- title: Research Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - Foundation models, multilingual NLP, and cross-lingual evaluation.
+    - Model interpretability, representation learning, and robustness.
+    - Speech and language systems for production voice assistants.

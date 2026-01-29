@@ -2,33 +2,62 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: AI Research Scientist | Foundation Models & Multilingual NLP
 
 profile:
   align: right
-  image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
+  image: Iuliia-Zaitova.jpg
+  image_circular: true
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p><strong>Saarland University, Germany</strong></p>
+    <p>PhD, Computational Linguistics (SFB 1102)</p>
+    <p>Saarbruecken, Germany</p>
+    <p><em>Finishing PhD early 2026</em></p>
+    <p><strong>Open to Applied Scientist / Research Scientist roles</strong></p>
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+selected_papers: true
+social: true
 
 announcements:
-  enabled: true # includes a list of news items
-  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
+  enabled: false
+  scrollable: true
+  limit: 5
 
 latest_posts:
-  enabled: true
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
+  enabled: false
+  scrollable: true
+  limit: 3
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+## Summary
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+AI Research Scientist focused on foundation models & transformers for language and speech (LLMs, ASR, TTS). I’m completing a PhD in Computational Linguistics (Saarland University, Germany) and have industry experience as an Applied Scientist intern at Amazon (Alexa TTS, Cambridge, United Kingdom).
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+**Current:** foundation models & transformers for language and speech (LLMs, ASR, TTS)
+
+[Resume](/zaitova_cv.pdf) · [GitHub](https://github.com/IuliiaZaitova) · [Hugging Face](https://huggingface.co/izaitova)
+
+## Core expertise
+
+- **Production ML systems:** large-scale LLMs, ASR, TTS (worked with 10B+ parameter models)
+- **Evaluation & quality:** built frameworks for regression detection and cross-lingual model comparison
+- **Infrastructure:** PyTorch, AWS (SageMaker, EC2), distributed training pipelines
+
+## Industry experience
+
+**Applied Scientist Intern — Amazon (Alexa TTS, Cambridge, United Kingdom)**
+
+- Built and maintained multilingual evaluation workflows to compare models across languages and conditions
+- Investigated regression risks and model failure modes to inform deployment decisions
+- Developed scalable preprocessing and evaluation pipelines on AWS (SageMaker, EC2, S3)
+- Collaborated with applied scientists, engineers, and PMs on production voice systems
+
+## Research
+
+- 11 peer-reviewed publications at top ML venues (ACL, NAACL, Interspeech). Research directly applicable to production multimodal AI systems, with focus on model robustness and cross-lingual capabilities.
+
+## Currently
+
+- Completing my PhD (early 2026)
+- Exploring Applied Scientist / Research Scientist roles in multilingual NLP, speech, and foundation models
+- Contact: iuliiazaitova@gmail.com

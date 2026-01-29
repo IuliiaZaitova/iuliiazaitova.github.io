@@ -1,190 +1,84 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
-    "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
-    "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
-    },
-    "profiles": [
-      {
-        "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
-      }
-    ]
-  },
-  "work": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity"]
+      "basics": {
+        "name": "Iuliia Zaitova",
+        "label": "AI Researcher (PhD candidate)",
+        "email": "iuliiazaitova@gmail.com",
+        "website": "https://iuliiazaitova.github.io",
+        "github": "https://github.com/IuliiaZaitova",
+        "linkedin": "https://www.linkedin.com/in/iuliia-zaitova/",
+        "researchgate": "https://www.researchgate.net/profile/Iuliia-Zaitova",
+        "scholar": "https://scholar.google.com/citations?user=YIR-Im0AAAAJ&hl=en",
+        "summary": "AI researcher in computational linguistics (finishing PhD early 2026) focused on foundation models, multilingual NLP, and systematic evaluation; experienced with large-scale transformer training, PyTorch, and AWS."
+      },
+      "education": [
+        {
+          "institution": "Universitaet des Saarlandes (SFB 1102, project C4)",
+          "area": "Computational Linguistics",
+          "studyType": "PhD",
+          "startDate": "2022",
+          "endDate": "early 2026",
+          "thesis": "Non-Compositionality in Cross-Linguistic Intercomprehension"
+        },
+        {
+          "institution": "Universitaet des Saarlandes (Department of Language Science and Technology)",
+          "area": "Language Science and Technology",
+          "studyType": "MSc",
+          "startDate": "2019",
+          "endDate": "2022",
+          "thesis": "Modeling Mutual Spoken Word Intelligibility between Slavic languages"
+        },
+        {
+          "institution": "Udmurt State University",
+          "area": "Translation and Applied Linguistics",
+          "studyType": "BA (Honours)",
+          "startDate": "2014",
+          "endDate": "2018"
+        }
+      ],
+      "work": [
+        {
+          "company": "Amazon (Alexa TTS)",
+          "position": "Applied Scientist Intern (completed)",
+          "location": "Cambridge, UK",
+          "startDate": "2025-07",
+          "endDate": "2026-01",
+          "summary": "Built and evaluated transformer-based speech and language models (10B+ parameters), multilingual evaluation pipelines, and AWS data flows for production voice assistants."
+        },
+        {
+          "company": "Spoken Language Systems (LSV), Universitaet des Saarlandes",
+          "position": "Research Assistant",
+          "startDate": "2020",
+          "endDate": "2022",
+          "summary": "Experimental work on transformer representations, attention patterns, and cross-lingual capabilities; reproducible pipelines; publications at ACL/NAACL/Interspeech."
+        },
+        {
+          "company": "Information and Service Systems, Universitaet des Saarlandes",
+          "position": "Research Assistant",
+          "startDate": "2019",
+          "endDate": "2020",
+          "summary": "Neural models for sales prediction using time-series data."
+        }
+      ],
+      "skills": {
+        "machine_learning": ["Foundation models", "LLMs", "multilingual NLP", "representation learning", "model evaluation", "interpretability"],
+        "frameworks": ["PyTorch", "HuggingFace Transformers", "JAX"],
+        "infrastructure": ["Distributed training", "Docker", "Kubernetes", "AWS (SageMaker, EC2, S3)"],
+        "development": ["Python", "C++", "R", "Git", "Jupyter", "NumPy", "pandas"],
+        "languages": ["Russian (native)", "English (C1)", "German (B2)"]
+      },
+      "publications": [
+        {"title": "It's Not a Walk in the Park! Challenges of Idiom Translation in Speech-to-text Systems", "authors": "Iuliia Zaitova et al.", "venue": "ACL 2025"},
+        {"title": "Attention on Multiword Expressions: A Multilingual Study of BERT-based Models with Regard to Idiomaticity and Microsyntax", "authors": "Iuliia Zaitova et al.", "venue": "NAACL 2025"},
+        {"title": "The Effect of Word Predictability on Spoken Cross-Language Intelligibility", "authors": "Wei Xue, Iuliia Zaitova, Bernd Moebius", "venue": "Interspeech 2025"},
+        {"title": "Cross-Linguistic Intelligibility of Non-Compositional Expressions in Spoken Context", "authors": "Iuliia Zaitova et al.", "venue": "Interspeech 2024"},
+        {"title": "Cross-Linguistic Processing of Non-Compositional Expressions in Slavic Languages", "authors": "Iuliia Zaitova et al.", "venue": "CogAlex 2024"},
+        {"title": "Microsyntactic Unit Detection using Word Embedding Models: Experiments on Slavic Languages", "authors": "Iuliia Zaitova et al.", "venue": "RANLP 2023"}
+      ],
+      "awards": ["Interspeech 2024 Grant", "Small Grant Scheme for Doctoral Researchers of the MGK - CRC 1102", "Saarland Stipendium 2021"],
+      "professional_development": ["UMLV 2023: Summer School on Linguistic Variability", "RANLP 2023: Summer School on Deep Learning in NLP", "WatchDial 2020: Virtual SemDial"]
     }
-  ],
-  "volunteer": [
-    {
-      "organization": "People's Climate March",
-      "location": "Zurich, Switzerland",
-      "position": "Lead Organizer",
-      "url": "https://example.com",
-      "startDate": "2014-04-01",
-      "endDate": "2015-07-01",
-      "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
-      "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
-    }
-  ],
-  "education": [
-    {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "location": "Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
-      "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
-      "score": "10",
-      "courses": ["Theory of Relativity"]
-    }
-  ],
-  "awards": [
-    {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
-    }
-  ],
-  "certificates": [
-    {
-      "name": "Machine Learning",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-location-dot"
-    },
-    {
-      "name": "Quantum Computing",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-tag"
-    },
-    {
-      "name": "Quantum Information",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-envelope"
-    },
-    {
-      "name": "Quantum Cryptography",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-hashtag"
-    },
-    {
-      "name": "Quantum Communication",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-calendar"
-    },
-    {
-      "name": "Quantum Teleportation",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-clipboard-check"
-    }
-  ],
-  "publications": [
-    {
-      "name": "Zur Elektrody/namik bewegter Körper",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-06-30",
-      "url": "https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies",
-      "summary": "It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source."
-    },
-    {
-      "name": "Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-03-18",
-      "url": "https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt",
-      "summary": "In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921."
-    },
-    {
-      "name": "Die Grundlage der allgemeinen Relativitätstheorie",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1916-03-20",
-      "url": "https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie",
-      "summary": "The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914)."
-    }
-  ],
-  "skills": [
-    {
-      "name": "Physics",
-      "level": "Master",
-      "icon": "fa-solid fa-hashtag",
-      "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
-      ]
-    }
-  ],
-  "languages": [
-    {
-      "language": "German",
-      "fluency": "Native speaker",
-      "icon": ""
-    },
-    {
-      "language": "English",
-      "fluency": "Fluent",
-      "icon": ""
-    }
-  ],
-  "interests": [
-    {
-      "name": "Physics",
-      "icon": "fa-solid fa-tag",
-      "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
-      ]
-    }
-  ],
-  "references": [
-    {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-laptop",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
-    },
-    {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-thumbtack",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
     }
   ],
   "projects": [
