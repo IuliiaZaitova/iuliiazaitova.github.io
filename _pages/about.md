@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: AI Research Scientist | Foundation Models & Multilingual NLP
+headline_pre: Open to Research Scientist / Applied Scientist roles in industry.
 
 profile:
   align: right
@@ -13,7 +13,6 @@ profile:
     <p>PhD, Computational Linguistics (SFB 1102)</p>
     <p>Saarbruecken, Germany</p>
     <p><em>Finishing PhD early 2026</em></p>
-    <p><strong>Open to Applied Scientist / Research Scientist roles</strong></p>
 
 selected_papers: true
 social: true
@@ -31,11 +30,11 @@ latest_posts:
 
 ## Summary
 
-AI Research Scientist focused on foundation models & transformers for language and speech (LLMs, ASR, TTS). I’m completing a PhD in Computational Linguistics (Saarland University, Germany) and have industry experience as an Applied Scientist intern at Amazon (Alexa TTS, Cambridge, United Kingdom).
+I’m an AI Research Scientist focused on foundation models & transformers for language and speech (LLMs, ASR, TTS). I’m completing a PhD in Computational Linguistics (Saarland University, Germany) and have industry experience as an Applied Scientist intern at Amazon (Alexa TTS, Cambridge, United Kingdom).
 
 **Current:** foundation models & transformers for language and speech (LLMs, ASR, TTS)
 
-[Resume](/zaitova_cv.pdf) · [GitHub](https://github.com/IuliiaZaitova) · [Hugging Face](https://huggingface.co/izaitova)
+[CV](/zaitova_cv.pdf) · [GitHub](https://github.com/IuliiaZaitova) · [Hugging Face](https://huggingface.co/izaitova)
 
 ## Core expertise
 
