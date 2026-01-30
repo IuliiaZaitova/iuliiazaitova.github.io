@@ -1,0 +1,52 @@
+/******************************************************************************
+ * Local style overrides.
+ *
+ * Keep changes here so theme updates are easy.
+ ******************************************************************************/
+
+:root {
+  /* Slightly smaller overall typography */
+  font-size: 15px;
+
+  /* Improve readability / professionalism */
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  line-height: 1.55;
+}
+
+/* Make headings a bit more restrained (al-folio can be quite large by default) */
+.header-bar h1 {
+  font-size: 3.25rem;
+  letter-spacing: -0.02em;
+}
+
+.publications h1 {
+  font-size: 1.75rem;
+}
+
+.publications h2 span {
+  font-size: 1.25rem;
+}
+
+/* Navigation: smaller, tighter */
+.navbar {
+  font-size: 0.95rem;
+}
+
+/* Meta text already uses 0.875rem; keep it but tighten spacing slightly */
+.post-list li .post-meta,
+.post-list li .post-tags,
+.post-description,
+.caption {
+  line-height: 1.4;
+}
+
+/* Code blocks: a touch smaller looks more polished */
+pre,
+code {
+  font-size: 0.9em;
+}
