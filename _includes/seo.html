@@ -131,6 +131,7 @@
       "url" : {{ seo_url | jsonify }},
       {% if site.social.job_title %}"jobTitle" : {{ site.social.job_title | jsonify }},{% endif %}
       {% if site.social.affiliation %}"affiliation" : { "@type" : "Organization", "name" : {{ site.social.affiliation | jsonify }} },{% endif %}
+      {% if site.author.email %}"email" : {{ site.author.email | jsonify }},{% endif %}
       "sameAs" : {{ site.social.links | jsonify }}
     }
   </script>
