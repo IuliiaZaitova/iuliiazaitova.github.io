@@ -1,0 +1,119 @@
+# Publication list. Order matches the CV. Only papers listed on the CV or the
+# GitHub profile README are included. Code URLs are included only where a
+# source gives them.
+- title: "It's Not a Walk in the Park! Challenges of Idiom Translation in Speech-to-text Systems"
+  authors:
+    - Iuliia Zaitova
+    - Badr Abdullah
+    - Wei Xue
+    - Bernd Möbius
+    - Dietrich Klakow
+    - Tania Avgustinova
+  venue: "ACL 2025"
+  year: 2025
+  paperurl: "https://aclanthology.org/2025.acl-long.1512/"
+  codeurl: "https://github.com/IuliiaZaitova/idiom_s2t"
+  codename: "idiom_s2t"
+  featured: true
+
+- title: "Attention on Multiword Expressions: A Multilingual Study of BERT-based Models with Regard to Idiomaticity and Microsyntax"
+  authors:
+    - Iuliia Zaitova
+    - Vitalii Hirak
+    - Badr Abdullah
+    - Bernd Möbius
+    - Dietrich Klakow
+    - Tania Avgustinova
+  venue: "Findings of NAACL 2025"
+  year: 2025
+  paperurl: "https://aclanthology.org/2025.findings-naacl.228/"
+  codeurl: "https://github.com/IuliiaZaitova/mwe-attention"
+  codename: "mwe-attention"
+  featured: true
+
+- title: "The Effect of Word Predictability on Spoken Cross-Language Intelligibility"
+  authors:
+    - Wei Xue
+    - Iuliia Zaitova
+    - Bernd Möbius
+  venue: "Interspeech 2025"
+  year: 2025
+  paperurl: "https://www.isca-archive.org/interspeech_2025/xue25b_interspeech.html"
+
+- title: "Predictability of Microsyntactic Units across Slavic Languages: A translation-based Study"
+  authors:
+    - Maria Kunilovskaya
+    - Iuliia Zaitova
+    - Wei Xue
+    - Irina Stenger
+    - Tania Avgustinova
+  venue: "NoDaLiDa Baltic-HLT 2025"
+  year: 2025
+  paperurl: "https://aclanthology.org/2025.nodalida-1.34/"
+
+- title: "Cross-Linguistic Processing of Non-Compositional Expressions in Slavic Languages"
+  authors:
+    - Iuliia Zaitova
+    - Irina Stenger
+    - Muhammad Umer Butt
+    - Tania Avgustinova
+  venue: "CogAlex 2024 at COLING"
+  year: 2024
+  paperurl: "https://aclanthology.org/2024.cogalex-1.10/"
+  codeurl: "https://github.com/IuliiaZaitova/non-compositional-expressions-slavic"
+
+- title: "Cross-Linguistic Intelligibility of Non-Compositional Expressions in Spoken Context"
+  authors:
+    - Iuliia Zaitova
+    - Irina Stenger
+    - Wei Xue
+    - Tania Avgustinova
+    - Bernd Möbius
+    - Dietrich Klakow
+  venue: "Interspeech 2024"
+  year: 2024
+  paperurl: "https://www.isca-archive.org/interspeech_2024/zaitova24_interspeech.html"
+  pdfurl: "https://www.isca-archive.org/interspeech_2024/zaitova24_interspeech.pdf"
+  codeurl: "https://github.com/IuliiaZaitova/spoken-non-compositional-expressions-slavic"
+
+- title: "Microsyntactic Unit Detection using Word Embedding Models: Experiments on Slavic Languages"
+  authors:
+    - Iuliia Zaitova
+    - Irina Stenger
+    - Tania Avgustinova
+  venue: "RANLP 2023"
+  year: 2023
+  paperurl: "https://aclanthology.org/2023.ranlp-1.134/"
+  codeurl: "https://github.com/IuliiaZaitova/Microsyntactic-Unit-Detection-using-Word-Embedding-Models-Slavic-Languages"
+
+- title: "Mapping Phonology to Semantics: A Computational Model of Cross-Lingual Spoken-Word Recognition"
+  authors:
+    - Iuliia Zaitova
+    - Badr M. Abdullah
+    - Dietrich Klakow
+  venue: "VarDial 2022 at COLING"
+  year: 2022
+  paperurl: "https://aclanthology.org/2022.vardial-1.6/"
+
+- title: "How familiar does that sound? Cross-lingual representational similarity analysis of acoustic word embeddings"
+  authors:
+    - Badr M. Abdullah
+    - Iuliia Zaitova
+    - Tania Avgustinova
+    - Bernd Möbius
+    - Dietrich Klakow
+  venue: "BlackboxNLP 2021"
+  year: 2021
+  paperurl: "https://aclanthology.org/2021.blackboxnlp-1.32/"
+
+- title: "Do Acoustic Word Embeddings Capture Phonological Similarity? An Empirical Study"
+  authors:
+    - Badr M. Abdullah
+    - Marius Mosbach
+    - Iuliia Zaitova
+    - Bernd Möbius
+    - Dietrich Klakow
+  venue: "Interspeech 2021"
+  year: 2021
+  paperurl: "https://arxiv.org/abs/2106.08686"
+  paper_label: "arXiv"
