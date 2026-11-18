@@ -12,6 +12,7 @@
   venue: "ACL 2025"
   year: 2025
   paperurl: "https://aclanthology.org/2025.acl-long.1512/"
+  biburl: "https://aclanthology.org/2025.acl-long.1512.bib"
   codeurl: "https://github.com/IuliiaZaitova/idiom_s2t"
   codename: "idiom_s2t"
   featured: true
@@ -27,6 +28,7 @@
   venue: "Findings of NAACL 2025"
   year: 2025
   paperurl: "https://aclanthology.org/2025.findings-naacl.228/"
+  biburl: "https://aclanthology.org/2025.findings-naacl.228.bib"
   codeurl: "https://github.com/IuliiaZaitova/mwe-attention"
   codename: "mwe-attention"
   featured: true
@@ -50,6 +52,7 @@
   venue: "NoDaLiDa Baltic-HLT 2025"
   year: 2025
   paperurl: "https://aclanthology.org/2025.nodalida-1.34/"
+  biburl: "https://aclanthology.org/2025.nodalida-1.34.bib"
 
 - title: "Cross-Linguistic Processing of Non-Compositional Expressions in Slavic Languages"
   authors:
@@ -60,6 +63,7 @@
   venue: "CogAlex 2024 at COLING"
   year: 2024
   paperurl: "https://aclanthology.org/2024.cogalex-1.10/"
+  biburl: "https://aclanthology.org/2024.cogalex-1.10.bib"
   codeurl: "https://github.com/IuliiaZaitova/non-compositional-expressions-slavic"
 
 - title: "Cross-Linguistic Intelligibility of Non-Compositional Expressions in Spoken Context"
@@ -84,6 +88,7 @@
   venue: "RANLP 2023"
   year: 2023
   paperurl: "https://aclanthology.org/2023.ranlp-1.134/"
+  biburl: "https://aclanthology.org/2023.ranlp-1.134.bib"
   codeurl: "https://github.com/IuliiaZaitova/Microsyntactic-Unit-Detection-using-Word-Embedding-Models-Slavic-Languages"
 
 - title: "Mapping Phonology to Semantics: A Computational Model of Cross-Lingual Spoken-Word Recognition"
@@ -94,6 +99,7 @@
   venue: "VarDial 2022 at COLING"
   year: 2022
   paperurl: "https://aclanthology.org/2022.vardial-1.6/"
+  biburl: "https://aclanthology.org/2022.vardial-1.6.bib"
 
 - title: "How familiar does that sound? Cross-lingual representational similarity analysis of acoustic word embeddings"
   authors:
@@ -105,6 +111,7 @@
   venue: "BlackboxNLP 2021"
   year: 2021
   paperurl: "https://aclanthology.org/2021.blackboxnlp-1.32/"
+  biburl: "https://aclanthology.org/2021.blackboxnlp-1.32.bib"
 
 - title: "Do Acoustic Word Embeddings Capture Phonological Similarity? An Empirical Study"
   authors:

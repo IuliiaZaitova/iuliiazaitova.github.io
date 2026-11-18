@@ -54,6 +54,31 @@
   font-weight: 700;
 }
 
+.work-cards {
+  margin: 1rem 0 0;
+}
+
+.work-card {
+  margin: 0 0 0.85rem;
+  padding: 0.85rem 1rem;
+  border: 1px solid $border-color;
+  border-left: 3px solid $primary-color;
+  border-radius: $border-radius;
+
+  h3 {
+    margin-top: 0;
+    margin-bottom: 0.35rem;
+  }
+
+  p:last-child {
+    margin-bottom: 0;
+  }
+
+  a {
+    margin-right: 0.9rem;
+  }
+}
+
 .site-footer-note {
   margin: 0;
   text-align: center;

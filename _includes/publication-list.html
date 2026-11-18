@@ -1,22 +1,30 @@
-<ol class="publication-list">
-{% for pub in site.data.publications %}
-  <li class="publication{% if pub.featured %} publication--featured{% endif %}">
-    <span class="publication__title">
-      {% if pub.paperurl %}<a href="{{ pub.paperurl }}">{{ pub.title }}</a>{% else %}{{ pub.title }}{% endif %}
-    </span>
-    <span class="publication__authors">
-      {% for author in pub.authors %}
-        {% if author == "Iuliia Zaitova" %}<strong>Iuliia Zaitova</strong>{% else %}{{ author }}{% endif %}{% unless forloop.last %}{% if forloop.rindex == 2 %}{% if pub.authors.size > 2 %}, and {% else %} and {% endif %}{% else %}, {% endif %}{% endunless %}
-      {% endfor %}
-    </span>
-    <span class="publication__venue">{{ pub.venue }}</span>
-    <span class="publication__links">
-      {% if pub.paperurl %}<a href="{{ pub.paperurl }}">{{ pub.paper_label | default: "Paper" }}</a>{% endif %}
-      {% if pub.pdfurl %}<a href="{{ pub.pdfurl }}">PDF</a>{% endif %}
-      {% if pub.codeurl %}
-        <a href="{{ pub.codeurl }}"{% if pub.featured %} class="publication__code--featured"{% endif %}>Code{% if pub.featured and pub.codename %}: {{ pub.codename }}{% endif %}</a>
-      {% endif %}
-    </span>
-  </li>
+{% assign year_tag = include.year_tag | default: "h2" %}
+{% assign pub_years = site.data.publications | map: "year" | uniq %}
+{% for year in pub_years %}
+  {% if year_tag == "h3" %}<h3>{{ year }}</h3>{% else %}<h2>{{ year }}</h2>{% endif %}
+  <ol class="publication-list">
+  {% for pub in site.data.publications %}
+    {% if pub.year == year %}
+    <li class="publication{% if pub.featured %} publication--featured{% endif %}">
+      <span class="publication__title">
+        {% if pub.paperurl %}<a href="{{ pub.paperurl }}">{{ pub.title }}</a>{% else %}{{ pub.title }}{% endif %}
+      </span>
+      <span class="publication__authors">
+        {% for author in pub.authors %}
+          {% if author == "Iuliia Zaitova" %}<strong>Iuliia Zaitova</strong>{% else %}{{ author }}{% endif %}{% unless forloop.last %}{% if forloop.rindex == 2 %}{% if pub.authors.size > 2 %}, and {% else %} and {% endif %}{% else %}, {% endif %}{% endunless %}
+        {% endfor %}
+      </span>
+      <span class="publication__venue">{{ pub.venue }}</span>
+      <span class="publication__links">
+        {% if pub.paperurl %}<a href="{{ pub.paperurl }}">{{ pub.paper_label | default: "Paper" }}</a>{% endif %}
+        {% if pub.pdfurl %}<a href="{{ pub.pdfurl }}">PDF</a>{% endif %}
+        {% if pub.biburl %}<a href="{{ pub.biburl }}">BibTeX</a>{% endif %}
+        {% if pub.codeurl %}
+          <a href="{{ pub.codeurl }}"{% if pub.featured %} class="publication__code--featured"{% endif %}>Code{% if pub.featured and pub.codename %}: {{ pub.codename }}{% endif %}</a>
+        {% endif %}
+      </span>
+    </li>
+    {% endif %}
+  {% endfor %}
+  </ol>
 {% endfor %}
-</ol>
