@@ -1,55 +1,13 @@
 ---
-layout: archive
+layout: single
 title: "Publications"
 permalink: /publications/
+excerpt: "Publications by Iuliia Zaitova on speech, multilingual NLP, idioms, and non-compositional expressions."
 author_profile: true
 ---
 
-## Publications
+Peer-reviewed papers, in the same order as on the [CV](/cv/). Code is linked where it is public. Start with the ACL 2025 idiom paper ([idiom_s2t](https://github.com/IuliiaZaitova/idiom_s2t)) and the Findings of NAACL 2025 multiword-expression paper ([mwe-attention](https://github.com/IuliiaZaitova/mwe-attention)).
 
-### **In Review**
-- **Zaitova, I., Hirak, V., Abdullah, B., Möbius, B., Klakow, D., & Avgustinova, T.**  
-  *Attention on Multiword Expressions: A Multilingual Study of BERT-based Models with Regard to Idiomaticity and Microsyntax*.
+{% include publication-list.html %}
 
-- **Kunilovskaya, M., Zaitova, I., Xue, W., Stenger, I., & Avgustinova, T.**  
-  *Predictability of Microsyntactic Units across Slavic Languages: A translation-based Study*.
-
-- **Zaitova, I., Xue, W., Stenger, I., Möbius, B., Klakow, D., & Avgustinova, T.**  
-  *Comparing Cross-Linguistic Intelligibility of Non-Compositional Expressions in Spoken vs. Spoken and Written Modalities*.
-
-
-### **Conference and Workshop Publications**
-- **Zaitova, I., Stenger, I., Xue, W., Avgustinova, T., Möbius, B., & Klakow, D.**  
-  *Cross-Linguistic Intelligibility of Non-Compositional Expressions in Spoken Context*.  
-  *(Interspeech 2024)*
-
-- **Zaitova, I., Stenger, I., Butt, M.U., & Avgustinova, T.**  
-  *Cross-Linguistic Processing of Non-Compositional Expressions in Slavic Languages*.  
-  *(CogAlex 2024)*
-
-- **Zaitova, I., Stenger, I., & Avgustinova, T.**  
-  *Microsyntactic Unit Detection using Word Embedding Models: Experiments on Slavic Languages*.  
-  *(RANLP 2023)*
-
-- **Zaitova, I., Abdullah, B.M., & Klakow, D.**  
-  *Mapping Phonology to Semantics: A Computational Model of Cross-Linguistic Spoken-Word Recognition*.  
-  *(VarDial 2022)*
-
-- **Abdullah, B.M., Zaitova, I., Avgustinova, T., Möbius, B., & Klakow, D.**  
-  *How familiar does that sound? Cross-lingual representational similarity analysis of acoustic word embeddings*.  
-  *(BlackboxNLP 2021)*
-
-- **Abdullah, B.M., Mosbach, M., Zaitova, I., Möbius, B., & Klakow, D.**  
-  *Do Acoustic Word Embeddings Capture Phonological Similarity? An Empirical Study*.  
-  *(Interspeech 2021)*
-
-
-### **Conference Presentations**
-- **Zaitova, I., Stenger, I., Xue, W., Kunilovskaya, M., & Avgustinova, T.**  
-  *Predictability of Microsyntactic Units across Slavic Languages: A translation-based Study*.  
-  *(MetaCol 2024, abstract)*
-
-
----
-
-You can also find my articles on [Google Scholar](https://scholar.google.com/citations?user=YIR-Im0AAAAJ&hl=en).
+Also on [Google Scholar](https://scholar.google.com/citations?user=YIR-Im0AAAAJ&hl=en). Fine-tuned models are on [Hugging Face](https://huggingface.co/izaitova), and the cross-lingual inventory of Slavic microsyntactic units is the [slavic_fixed_expressions](https://huggingface.co/datasets/izaitova/slavic_fixed_expressions) dataset.
