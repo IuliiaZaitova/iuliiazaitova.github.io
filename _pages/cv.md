@@ -45,7 +45,7 @@ July 2025–January 2026
 
 Focus: evaluation of neural architectures, representation learning, multilingual modeling, and transformer interpretability.  
 Advisors: Prof. Dr. Tania Avgustinova, Prof. Dr. Dietrich Klakow, Prof. Dr. Bernd Möbius.  
-Thesis: *Non-Compositionality in Cross-Linguistic Intercomprehension* (submitted, awaiting defense).
+Thesis: *Cross-Linguistic Analysis of Microsyntactic Units in Slavic Languages: Computational and Empirical Perspectives* (submitted, awaiting defense).
 
 **MSc in Language Science and Technology, Universität des Saarlandes**  
 Department of Language Science and Technology · 2019–2022

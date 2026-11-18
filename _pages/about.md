@@ -14,7 +14,7 @@ I am Iuliia (you-lee-yah) Zaitova, an AI Research Engineer at [Diabolocom](https
 ## News
 
 - **June 2026.** Joined Diabolocom as AI Research Engineer.
-- **2026.** PhD thesis submitted.
+- **2026.** PhD thesis submitted: *Cross-Linguistic Analysis of Microsyntactic Units in Slavic Languages: Computational and Empirical Perspectives*.
 - **July 2025.** Started an Applied Scientist internship at Amazon (Alexa TTS).
 - **2025.** [It's Not a Walk in the Park! Challenges of Idiom Translation in Speech-to-text Systems](https://aclanthology.org/2025.acl-long.1512/) at ACL 2025.
 - **2025.** [Attention on Multiword Expressions: A Multilingual Study of BERT-based Models with Regard to Idiomaticity and Microsyntax](https://aclanthology.org/2025.findings-naacl.228/) in Findings of NAACL 2025.
@@ -37,3 +37,23 @@ I post-train and evaluate transformer-based speech and language models using SFT
   Attention analysis of how multilingual transformer encoders process multiword expressions.
 
 The full list is on the [publications](/publications/) page.
+
+## Selected work
+
+<div class="work-cards">
+  <article class="work-card">
+    <h3>idiom_s2t</h3>
+    <p>Evaluation of speech-to-text systems (cascaded and end-to-end) on a hard case, idiomatic language. ACL 2025.</p>
+    <p><a href="https://aclanthology.org/2025.acl-long.1512/">Paper</a> <a href="https://github.com/IuliiaZaitova/idiom_s2t">Code</a></p>
+  </article>
+  <article class="work-card">
+    <h3>mwe-attention</h3>
+    <p>Fine-tuned multilingual BERT models across tasks (POS, dependency relations, NER, topic classification) and languages, used to study how fine-tuning changes attention to multiword expressions.</p>
+    <p><a href="https://github.com/IuliiaZaitova/mwe-attention">Code</a> <a href="https://huggingface.co/izaitova">Hugging Face</a></p>
+  </article>
+  <article class="work-card">
+    <h3>slavic_fixed_expressions</h3>
+    <p>A cross-lingual inventory of non-compositional microsyntactic units in six Slavic languages.</p>
+    <p><a href="https://huggingface.co/datasets/izaitova/slavic_fixed_expressions">Dataset</a></p>
+  </article>
+</div>
