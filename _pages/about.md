@@ -14,7 +14,7 @@ I am Iuliia (you-lee-yah) Zaitova, an AI Research Engineer at [Diabolocom](https
 ## News
 
 - **June 2026.** Joined Diabolocom as AI Research Engineer.
-- **2026.** PhD thesis submitted: *Cross-Linguistic Analysis of Microsyntactic Units in Slavic Languages: Computational and Empirical Perspectives*.
+- **May 2026.** PhD thesis submitted: *Cross-Linguistic Analysis of Microsyntactic Units in Slavic Languages: Computational and Empirical Perspectives*.
 - **July 2025.** Started an Applied Scientist internship at Amazon (Alexa TTS).
 - **2025.** [It's Not a Walk in the Park! Challenges of Idiom Translation in Speech-to-text Systems](https://aclanthology.org/2025.acl-long.1512/) at ACL 2025.
 - **2025.** [Attention on Multiword Expressions: A Multilingual Study of BERT-based Models with Regard to Idiomaticity and Microsyntax](https://aclanthology.org/2025.findings-naacl.228/) in Findings of NAACL 2025.
