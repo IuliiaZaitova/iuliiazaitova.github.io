@@ -14,7 +14,7 @@ I am Iuliia (you-lee-yah) Zaitova, an AI Research Engineer at [Diabolocom](https
 ## News
 
 - **June 2026.** Joined Diabolocom as AI Research Engineer.
-- **2026.** PhD thesis submitted: *Cross-Linguistic Analysis of Microsyntactic Units in Slavic Languages: Computational and Empirical Perspectives*.
+- **May 2026.** PhD thesis submitted: *Cross-Linguistic Analysis of Microsyntactic Units in Slavic Languages: Computational and Empirical Perspectives*.
 - **July 2025.** Started an Applied Scientist internship at Amazon (Alexa TTS).
 - **2025.** [It's Not a Walk in the Park! Challenges of Idiom Translation in Speech-to-text Systems](https://aclanthology.org/2025.acl-long.1512/) at ACL 2025.
 - **2025.** [Attention on Multiword Expressions: A Multilingual Study of BERT-based Models with Regard to Idiomaticity and Microsyntax](https://aclanthology.org/2025.findings-naacl.228/) in Findings of NAACL 2025.
@@ -28,15 +28,6 @@ I am Iuliia (you-lee-yah) Zaitova, an AI Research Engineer at [Diabolocom](https
 ## Research
 
 I post-train and evaluate transformer-based speech and language models using SFT, RL, and DPO, and I design the evaluation that checks whether those changes improve behavior, not just metrics. The work focuses on multilingual representations and on non-compositional and figurative language.
-
-## Selected papers
-
-- [It's Not a Walk in the Park! Challenges of Idiom Translation in Speech-to-text Systems](https://aclanthology.org/2025.acl-long.1512/) (ACL 2025). Code: [idiom_s2t](https://github.com/IuliiaZaitova/idiom_s2t).
-  Evaluation of speech-to-text systems, cascaded and end-to-end, on idiom translation as a hard case of figurative language.
-- [Attention on Multiword Expressions: A Multilingual Study of BERT-based Models with Regard to Idiomaticity and Microsyntax](https://aclanthology.org/2025.findings-naacl.228/) (Findings of NAACL 2025). Code: [mwe-attention](https://github.com/IuliiaZaitova/mwe-attention).
-  Attention analysis of how multilingual transformer encoders process multiword expressions.
-
-The full list is on the [publications](/publications/) page.
 
 ## Selected work
 
@@ -57,3 +48,5 @@ The full list is on the [publications](/publications/) page.
     <p><a href="https://huggingface.co/datasets/izaitova/slavic_fixed_expressions">Dataset</a></p>
   </article>
 </div>
+
+All papers are on the [publications](/publications/) page.
