@@ -12,11 +12,9 @@ title_separator          : "-"
 name                     : &name "Iuliia Zaitova / Юлия Заитова"
 name_pronunciation       : &pronunciation "_YOU-lee-yah zah-EE-tah-vah_"
 description              : &description "AI Research Engineer at Diabolocom. PhD candidate in Computational Linguistics at Saarland University, working on speech, NLP, and evaluation of generative models."
-# Canonical site URL. GitHub Pages currently serves the site at the address
-# below. After DNS for zaitova.com points at GitHub Pages, change this single
-# line to "https://zaitova.com". Do not add a CNAME file until that DNS is in
-# place; a CNAME would stop github.io from serving the site.
-url                      : https://iuliiazaitova.github.io
+# Canonical site URL. Asset, canonical, Open Graph, feed, and sitemap links
+# are built from this value. The custom domain is set in CNAME.
+url                      : "https://zaitova.com"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "IuliiaZaitova/iuliiazaitova.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
